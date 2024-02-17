@@ -1,0 +1,29 @@
+.my-face {
+  background-image: url('/assets/face.jpeg');
+  height: min(60vh, 60vw);
+  aspect-ratio: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: face-animation 1.5s linear 0s infinite both;
+}
+
+.my-face:hover {
+  // animation-play-state: paused;
+  animation: face-animation 50s linear 0s infinite both;
+}
+
+@keyframes face-animation {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-5turn);
+  }
+
+  100% {
+    transform: rotate(0turn);
+  }
+
+}

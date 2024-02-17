@@ -3,12 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TextBubbleComponent } from './components/text-bubble/text-bubble.component';
+import { HomeComponent } from './components/home/home.component';
+import { VideoBgComponent } from './components/video-bg/video-bg.component';
+import { TextStylesComponent } from './components/text-styles/text-styles.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TextBubbleComponent
+    HomeComponent,
+    VideoBgComponent,
+    TextStylesComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,5 @@
+<div class="full-page-content flex-wrap">
+  <div class="nav-item border rounded-3 border-danger text-primary m-3 text-center" *ngFor="let item of items">
+    <a class="d-block p-4 text-decoration-none" [routerLink]="item.path">{{item.title}}</a>
+  </div>
+</div>
